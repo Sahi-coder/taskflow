@@ -18,37 +18,6 @@ function Board() {
   const [searchTerm, setSearchTerm] = useState("");
   const [draggedTask, setDraggedTask] = useState<Task | null>(null);
 
-  // Test Supabase connection on mount
-  useEffect(() => {
-    const testConnection = async () => {
-      console.log("🧪 Testing Supabase connection...");
-      try {
-        // Test 1: Check if we can connect
-        const { data: healthCheck, error: healthError } = await supabase.from("tasks").select("count", { count: 'exact', head: true });
-        if (healthError) {
-          console.error("❌ Supabase connection failed:", healthError);
-        } else {
-          console.log("✅ Supabase connected successfully!");
-        }
-
-        // Test 2: Check authentication
-        const { data: { session }, error: sessionError } = await supabase.auth.getSession();
-        if (sessionError) {
-          console.error("❌ Auth session error:", sessionError);
-        } else if (session) {
-          console.log("✅ User is authenticated:", session.user.id);
-          setCurrentUser(session.user.id);
-        } else {
-          console.log("⚠️ No active session, user needs to login");
-        }
-      } catch (err) {
-        console.error("❌ Connection test error:", err);
-      }
-    };
-    
-    testConnection();
-  }, []);
-
   // Get current user on mount
   useEffect(() => {
     const getUser = async () => {
