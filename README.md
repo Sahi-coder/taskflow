@@ -45,8 +45,8 @@ It helps users organize tasks visually using drag-and-drop Kanban boards.
 ---
 
 <img width="1920" height="1034" alt="Screenshot 2026-06-12 171321" src="https://github.com/user-attachments/assets/c1603903-a417-4194-b5eb-8a46d3bc428d" />
-<img width="1920" height="1035" alt="Screenshot 2026-06-12 171420" src="https://github.com/user-attachments/assets/896a687f-ac16-45fe-aace-b2b1cfc77aca" />
 <img width="1920" height="1033" alt="Screenshot 2026-06-12 171406" src="https://github.com/user-attachments/assets/9851b723-d961-4da9-94f2-5d280e29f2cc" />
+<img width="1920" height="1035" alt="Screenshot 2026-06-12 171420" src="https://github.com/user-attachments/assets/896a687f-ac16-45fe-aace-b2b1cfc77aca" />
 ---
 
 ## ⚙️ Installation & Setup
