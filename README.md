@@ -19,8 +19,8 @@ It helps users organize tasks visually using drag-and-drop Kanban boards.
 - ⚡ Fast and responsive UI
 - 📱 Fully responsive design (mobile + desktop)
 - 🎯 Clean and modern Kanban-style layout
-- 🔐 (Planned) Authentication system
-- 👥 (Planned) Team collaboration features
+- 🔐 (Future) Authentication system
+- 👥 (Future) Team collaboration features
 
 ---
 
