@@ -37,6 +37,7 @@ It helps users organize tasks visually using drag-and-drop Kanban boards.
 - Node.js
 - Express.js
 - Supabase
+- PostgreSQL
 
 ---
 
