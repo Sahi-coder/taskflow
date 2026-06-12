@@ -420,9 +420,7 @@ function Board() {
             onEdit={editTask}
           />
         </div>
-      </div>
-
-      <div className="mb-8 rounded-2xl bg-white p-6 shadow-sm">
+            <div className="mb-8 rounded-2xl bg-white p-6 shadow-sm">
         <div className="mb-3 flex items-center justify-between">
           <h3 className="text-lg font-semibold text-slate-800">Task Progress</h3>
           <span className="font-medium text-blue-600">{progress}%</span>
@@ -436,6 +434,7 @@ function Board() {
         <p className="mt-3 text-sm text-slate-500">
           {completedTasks} / {totalTasks} Tasks Completed
         </p>
+      </div>
       </div>
     </section>
   );
